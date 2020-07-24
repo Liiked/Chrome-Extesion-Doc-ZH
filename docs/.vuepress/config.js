@@ -38,6 +38,38 @@ module.exports = {
             path: "/overview/manifest-format/"
           }
         ]
+      },
+      {
+        title: "开发者指南",
+        path: "/developer-guide/",
+        collaspse: true,
+        children: [
+          {
+            title: "精进性能",
+            path: "/developer-guide/reach-peak-performance/"
+          },
+          {
+            title: "保护用户隐私",
+            path: "/developer-guide/protect-user-privacy/"
+          },
+          { title: "安全性", path: "/developer-guide/stay-secure/" },
+          { title: "调试", path: "/developer-guide/debugging/" },
+          { title: "OAuth", path: "/developer-guide/oauth/" },
+          { title: "可访问性", path: "/developer-guide/accessbility/" },
+          {
+            title: "内容安全策略",
+            path: "/developer-guide/content-security-policy/"
+          },
+          { title: "跨域XHR", path: "/developer-guide/corss-origin-xhr/" },
+          { title: "国际化", path: "/developer-guide/internationalization/" },
+          { title: "消息传递", path: "/developer-guide/message-passing/" },
+          { title: "原生消息传递", path: "/developer-guide/native-messaging/" },
+          { title: "匹配模式", path: "/developer-guide/match-patterns/" },
+          {
+            title: "插件质量指南和FAQ",
+            path: "/developer-guide/extension-quality-guidlines-faq/"
+          }
+        ]
       }
       // { title: "Guide", path: "/guide/" },
       // { title: "External", path: "https://google.com" },
